@@ -1,0 +1,134 @@
+body{
+	background-color: red;
+	padding: 0;
+	margin: 0;
+	height: 100vh;
+	width:100vw;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.loader{
+	-webkit-perspective:700px;
+	perspective: 700px;
+}
+
+.loader>span{
+	font-size: 130px;
+	font-family: "franklin gothic medium",sans-serif;
+	display: inline-block;
+	animation:flip 2.6s infinite linear;
+	transform-origin:0 70%;
+	transform-style:preserve-3d;
+	-webkit-transform-style:preserve-3d;
+}
+
+@keyframes flip{
+	35%{
+		transform: rotateX(360deg);
+	}
+	100%{
+		transform: rotatex(360deg);
+	}
+}
+
+
+.loader>span:nth-child(even){
+	color:white;
+
+}
+
+.loader>span:nth-child(2){
+	animation-delay: 5.0s;
+}
+
+.loader>span:nth-child(3){
+	animation-delay: 0.6s;
+	margin-right: 50px;
+}
+
+.loader>span:nth-child(4){
+	animation-delay: 0.9s;
+}
+
+.loader>span:nth-child(5){
+	animation-delay: 1.2s;
+}
+
+
+
+
+.loader>span:nth-child(6){
+	animation-delay: 1.5s;
+	margin-right: 50px;
+	}
+
+.loader>span:nth-child(7){
+	animation-delay: 1.8s;
+}
+.loader>span:nth-child(8){
+	animation-delay: 2.1s;
+}
+.loader>span:nth-child(9){
+	animation-delay: 2.4s;
+}
+.loader>span:nth-child(10){
+	animation-delay: 2.7s;
+}
+.loader>span:nth-child(11){
+	animation-delay: 3.0s;
+}
+.loader>span:nth-child(12){
+	animation-delay: 3.3s;
+}
+.loader>span:nth-child(13){
+	animation-delay: 3.6s;
+}
+.loader>span:nth-child(14){
+	animation-delay: 3.9s;
+}
+.loader>span:nth-child(15){
+	animation-delay: 4.2s;
+}
+.loader>span:nth-child(16){
+	animation-delay: 4.5s;
+}
+.loader>span:nth-child(17){
+	animation-delay: 4.8s;
+	
+}
+.loader>span:nth-child(18){
+	animation-delay: 5.1s;
+	margin-right: 40px ;
+}
+.loader>span:nth-child(19){
+	animation-delay: 5.4s;
+	margin-right: 40px ;
+}
+.loader>span:nth-child(20){
+	animation-delay: 5.7s;
+}
+.loader>span:nth-child(21){
+	animation-delay: 6.0s;
+}
+.loader>span:nth-child(22){
+	animation-delay: 6.3s;
+}
+.loader>span:nth-child(23){
+	animation-delay: 6.6s;
+
+}
+.loader>span:nth-child(24){
+	animation-delay: 6.9s;
+	margin-right: 40px ;
+}
+.loader>span:nth-child(25){
+	animation-delay: 7.2s;
+}
+.loader>span:nth-child(26){
+	animation-delay: 7.5s;
+}
+.loader>span:nth-child(27){
+	animation-delay: 7.8s;
+}
